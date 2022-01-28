@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 150px;
+  background-color: #060447;
+  color: #FFF38A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-part .left-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+}
+
+.top-part .left-part .top-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top-part .left-part .top-part .logo img {
+  width: 80px;
+  padding: 0 16px 24px 0;
+}
+
+.top-part .left-part .top-part span {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.top-part .left-part .top-part p {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.top-part .left-part .bottom-part {
+  margin: auto 0 0 0;
+}
+
+.top-part .left-part .bottom-part p {
+  font-family: 'GT Ultra Trial';
+  font-size: 231px;
+  line-height: 150px;
+}
+
+.progression {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0 0 0;
+}
+
+.progression .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 20%;
+  margin: -10px 0 0 0;
+}
+
+.progression .arrows img {
+  cursor: pointer;
+}
+
+.progression .arrows img:first-child {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  margin: 0 45px 0 0;
+}
+
+.progression .bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 80%;
+}
+
+.progression .bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 2px;
+  background-color: #827B68;
+}
+
+.progression .bar ul li {
+  margin: -15px 0 0 0;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #827B68;
+  background-color: #827B68;
+  border-radius: 50%;
+}
+
+.progression .bar ul li:first-child {
+  background-color: #FFF38A;
+}
+/*# sourceMappingURL=style.css.map */
