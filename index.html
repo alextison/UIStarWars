@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8" defer></script>
 </head>
 
 <body>
@@ -27,20 +27,28 @@
                 <p>19<span>7</span><span>7</span></p>
             </div>
         </div>
-        <div class="right-part">
+        <div class="right-part poster">
             <img src="img/1977Poster.png" alt="Affiche du film de 1977">
+            <img src="img/1980Poster.png" alt="Affiche du film de 1980">
+            <img src="img/1983Poster.png" alt="Affiche du film de 1983">
         </div>
     </div>
     <div class="progression">
-        <div class="arrows">
-            <img src="img/Arrow.svg" alt="Précédent">
-            <img src="img/Arrow.svg" alt="Suivant">
+        <div data-position="0" class="arrows">
+            <img src="img/Arrow.svg" alt="Précédent" onclick="previous()">
+            <img src="img/Arrow.svg" alt="Suivant" onclick="next()">
         </div>
         <div class="bar">
             <ul>
                 <li></li>
+            </ul>
+            <ul>
                 <li></li>
+            </ul>
+            <ul>
                 <li></li>
+            </ul>
+            <ul>
                 <li></li>
                 <li></li>
             </ul>
