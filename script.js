@@ -37,11 +37,12 @@ function logo(){
 
 function poster(){
     if(which == 'previous'){
-        containerPoster[0]['children'][i].style.display = 'none';
-        containerPoster[0]['children'][i-1].style.display = 'flex';
+        containerPoster[0]['children'][i].style.width = '0';
+        containerPoster[0]['children'][i].style.left = '100%';
     }else{
-        containerPoster[0]['children'][i].style.display = 'none';
-        containerPoster[0]['children'][i+1].style.display = 'flex';
+        containerPoster[0]['children'][i+1].style.width = '100%';
+        containerPoster[0]['children'][i+1].style.left = '0';
+        containerPoster[0]['children'][i].style.width = '0';
     }
 }
 

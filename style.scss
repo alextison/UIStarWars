@@ -74,10 +74,19 @@ ul{
     }
     .right-part{
         img{
-            display: none;
+            position: relative;
+            bottom: 0;
+            left: 100%;
+            right: 0;
+            top: 0;
+            overflow: hidden;
+            width: 0;
+            height: 100%;
+            transition: .5s ease;
         }
         img:first-child{
-            display: flex;
+            width: 100%;
+            left: 0;
         }
     }
 }
